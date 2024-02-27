@@ -1,0 +1,70 @@
+body {
+    background-color: #002B4D;
+    padding: 0px 60px 60px;
+}
+.title {
+    color: #DDA536;
+    font-weight: bolder;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.calender-title {
+    color: #DDA536;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -16px;
+    margin-bottom: 30px;
+}
+
+.total-calender {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 0px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.month-name {
+    color: #DDA536;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+hr {
+    color: #DDA536;
+}
+
+.calender-month {
+    border: 1px solid #DDA536;
+    width: fit-content;
+    padding: 0px 22px 18px;
+}
+
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 20px);
+    grid-template-rows: repeat(6, 20px);
+    column-gap: 15px;
+}
+
+.date,
+.day {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .75em;
+}
+
+.day {
+    font-size: 1em;
+}
